@@ -1,0 +1,11 @@
+poseidon:
+  server:
+    RunMode: debug
+    HttpPort: :9999
+networkCard: enp2s0
+networkConfigFile: 01-network-manager-all.yaml
+ssdMountPath: /datas
+jxcoreLogPath: /var/log/jxcore_event.log
+wirelessPyPath: /usr/bin/G8100_NoMCU.py
+wssPath: /data/compose/w2s-asp
+aspUsername: edge
